@@ -205,6 +205,8 @@ $(document).ready(function(){
             $("#jsFase14").show()
         }if($('#jsPassword').val()=="torre eiffel"){
             alert("sim, tudo isso é uma história de amor")
+        }if($('#jsPassword').val()=="inferno"){
+            alert("uma pena, tudo preto, tudo escuro, mas em fim, acabou.")
         }
     })
 })
