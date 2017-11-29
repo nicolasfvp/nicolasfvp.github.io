@@ -62,8 +62,7 @@ $(document).ready(function () {
             $("#noob13").hide()
             $("#noob14").hide()
             $("#gabarito").hide()
-        }
-        if ($('#jsPassword').val() == "Era a companheira de todos") {
+        }if ($('#jsPassword').val() == "Era a companheira de todos") {
             $("#jsFase1").hide()
             $("#jsFase2").hide()
             $("#jsFase3").hide()
@@ -823,8 +822,8 @@ var cheat=0
             $("#gabarito").hide() 
             cheat=1
             localStorage.cheat=cheat
-    })
-})
+    }
+
 
 
 var mostraSenha = function () {
@@ -835,4 +834,7 @@ var mostraSenha = function () {
 var colocaEspera = function () {
     $("#jsEspere").html("espere");
     setTimeout(mostraSenha, 900000);
-};
+}
+
+})
+})
