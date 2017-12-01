@@ -1,3 +1,8 @@
+body{
+    background-image: url("../imagens/background1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%
+}
 .search{
     height: 25px;
     width: 25px;
@@ -5,6 +10,7 @@
 }
 .inSenha{
 margin-top: 2px;
+border:0px
 }
 .my-nav{
     margin: 0 auto;
@@ -12,85 +18,11 @@ margin-top: 2px;
     width: 244px;
 }
 .a1{
-    background-color: red;
+    color: red;
     height: 100%;
     width: 100%; 
 }
-.a2{
-    background-color: red;
-    height: 100%;
-    width: 100%; 
-    display: none;
-}
-.a3{
-    background-color: red;
-    height: 100%;
-    width: 100%; 
-    display: none;
-}
-.a4{
-    background-color: red;
-    height: 100%;
-    width: 100%; 
-    display: none;
-}
-.a5{
-    background-color: red;
-    height: 100%;
-    width: 100%; 
-    display: none;
-}
-.a6{
-    background-color: red;
-    height: 100%;
-    width: 100%; 
-    display: none;
-}
-.a7{
-    background-color: red;
-    height: 100%;
-    width: 100%; 
-    display: none;
-}
-.a8{
-    background-color: red;
-    height: 100%;
-    width: 100%; 
-    display: none;
-}
-.a9{
-    background-color: red;
-    height: 100%;
-    width: 100%; 
-    display: none;
-}
-.a10{
-    background-color: red;
-    height: 100%;
-    width: 100%; 
-    display: none;
-}
-.a11{
-    background-color: red;
-    height: 100%;
-    width: 100%; 
-    display: none;
-}
-.a12{
-    background-color: red;
-    height: 100%;
-    width: 100%; 
-    display: none;
-}
-.a13{
-    background-color: red;
-    height: 100%;
-    width: 100%; 
-    display: none;
-}
-.a14{
-    background-color: red;
-    height: 100%;
-    width: 100%; 
+#gabarito{
+    color: red;
     display: none;
 }

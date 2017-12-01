@@ -1,5 +1,8 @@
+var cheat=0;
+
 $(document).ready(function () {
-    $("#jsSenha").click(function () {
+    $("#jsPassword").keypress(function (event) {
+        if(event.which==13){
         if ($('#jsPassword').val() == "no inicio de tudo") {
             $("#jsFase1").hide()
             $("#jsFase2").show()
@@ -409,12 +412,12 @@ $(document).ready(function () {
             $("#noob13").hide()
             $("#noob14").hide()
             $("#gabarito").hide()
-            if(localStorage.cheat=0){
+            if(!localStorage.cheat){
                 $("#bonus").show()
             }
         }
 
-var cheat=0
+
         if ($('#jsPassword').val() == "torre eiffel") {
             alert("sim, tudo isso é uma história de amor")
         } if ($('#jsPassword').val() == "inferno") {
@@ -822,8 +825,37 @@ var cheat=0
             $("#gabarito").hide() 
             cheat=1
             localStorage.cheat=cheat
+    } if ($('#jsPassword').val()=="gabarito"){
+        $("#jsFase1").hide()
+        $("#jsFase2").hide()
+        $("#jsFase3").hide()
+        $("#jsFase4").hide()
+        $("#jsFase5").hide()
+        $("#jsFase6").hide()
+        $("#jsFase7").hide()
+        $("#jsFase8").hide()
+        $("#jsFase9").hide()
+        $("#jsFase10").hide()
+        $("#jsFase11").hide()
+        $("#jsFase12").hide()
+        $("#jsFase13").hide()
+        $("#jsFase14").hide()
+        $("#noob1").hide()
+        $("#noob2").hide()
+        $("#noob3").hide()
+        $("#noob4").hide()
+        $("#noob5").hide()
+        $("#noob6").hide()
+        $("#noob7").hide()
+        $("#noob8").hide()
+        $("#noob9").hide()
+        $("#noob10").hide()
+        $("#noob11").hide()
+        $("#noob12").hide()
+        $("#noob13").hide()
+        $("#gabarito").show() 
     }
-
+}
 
 
 var mostraSenha = function () {
