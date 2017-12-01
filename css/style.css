@@ -1,3 +1,6 @@
+h1{
+    text-align: center
+}
 body{
     background-image: url("../imagens/background1.jpg");
     background-repeat: no-repeat;
@@ -18,17 +21,22 @@ border:0px
     width: 244px;
 }
 .a1{
-    color: red;
     height: 100%;
     width: 100%; 
 }
 .a2{
-    color: red;
     height: 100%;
     width: 100%; 
     display: none;
 }
 #gabarito{
-    color: red;
     display: none;
+}
+.painel{
+    background-color: rgb(226, 17, 17);
+    border-radius: 20px;
+    border: 5px solid gray;
+}
+.t1{
+
 }
