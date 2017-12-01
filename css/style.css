@@ -22,6 +22,12 @@ border:0px
     height: 100%;
     width: 100%; 
 }
+.a2{
+    color: red;
+    height: 100%;
+    width: 100%; 
+    display: none;
+}
 #gabarito{
     color: red;
     display: none;
