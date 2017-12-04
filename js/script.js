@@ -318,7 +318,7 @@ $(document).ready(function () {
             $("#noob13").hide()
             $("#noob14").hide()
             $("#gabarito").hide()
-        } if ($('#jsPassword').val() == "e nada fara com que tudo volte ao normal") {
+        } if ($('#jsPassword').val() == "  e nada fara com que tudo volte ao normal") {
             document.title = "o jogo"
             $("#jsFase1").hide()
             $("#jsFase2").hide()
@@ -350,7 +350,7 @@ $(document).ready(function () {
             $("#noob13").hide()
             $("#noob14").hide()
             $("#gabarito").hide()
-        } if ($('#jsPassword').val() == "uma pena, tudo preto, tudo escuro, mas em fim, acabou.") {
+        } if ($('#jsPassword').val() == "o inferno é aqui") {
             $("#jsFase1").hide()
             $("#jsFase2").hide()
             $("#jsFase3").hide()
@@ -412,16 +412,11 @@ $(document).ready(function () {
             $("#noob13").hide()
             $("#noob14").hide()
             $("#gabarito").hide()
-            if(!localStorage.cheat){
+        }if(!localStorage.cheat){
                 $("#bonus").show()
             }
-        }
-
-
         if ($('#jsPassword').val() == "torre eiffel") {
             alert("sim, tudo isso é uma história de amor")
-        } if ($('#jsPassword').val() == "inferno") {
-            alert("uma pena, tudo preto, tudo escuro, mas em fim, acabou.")
         } if ($('#jsPassword').val() == "eu sou um noob 1") {
             $("#jsFase1").hide()
             $("#jsFase2").hide()
@@ -856,7 +851,6 @@ $(document).ready(function () {
         $("#gabarito").show() 
     }
 }
-
 
 var mostraSenha = function () {
     $("#jsEspere").html("não quero passar meu sofrimento adiante, quero acabar com ele");
