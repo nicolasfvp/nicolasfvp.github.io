@@ -44,6 +44,9 @@ border:0px
 .armonya{
     display: none;
 }
+.nb{
+    display: none;
+}
 @media screen and (max-width:500px) and (max-height:500px){
     .armonya{
         display: inline;
