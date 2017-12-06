@@ -31,8 +31,6 @@ $(document).ready(function () {
             $("#noob10").hide()
             $("#noob11").hide()
             $("#noob12").hide()
-            $("#noob13").hide()
-            $("#noob14").hide()
             $("#gabarito").hide()
         } if ($('#jsPassword').val() == "A") {
             $("#jsFase1").hide()
@@ -62,8 +60,6 @@ $(document).ready(function () {
             $("#noob10").hide()
             $("#noob11").hide()
             $("#noob12").hide()
-            $("#noob13").hide()
-            $("#noob14").hide()
             $("#gabarito").hide()
         }if ($('#jsPassword').val() == "Era a companheira de todos") {
             $("#jsFase1").hide()
@@ -93,10 +89,7 @@ $(document).ready(function () {
             $("#noob10").hide()
             $("#noob11").hide()
             $("#noob12").hide()
-            $("#noob13").hide()
-            $("#noob14").hide()
             $("#gabarito").hide()
-
         } if ($('#jsPassword').val() == "sempre feliz") {
             $("#jsFase1").hide()
             $("#jsFase2").hide()
@@ -125,8 +118,6 @@ $(document).ready(function () {
             $("#noob10").hide()
             $("#noob11").hide()
             $("#noob12").hide()
-            $("#noob13").hide()
-            $("#noob14").hide()
             $("#gabarito").hide()
         } if ($('#jsPassword').val() == "alegre alegria") {
             $("#jsFase1").hide()
@@ -156,8 +147,6 @@ $(document).ready(function () {
             $("#noob10").hide()
             $("#noob11").hide()
             $("#noob12").hide()
-            $("#noob13").hide()
-            $("#noob14").hide()
             $("#gabarito").hide()
         } if ($('#jsPassword').val() == "mas tudo mudou hoje em dia") {
             document.title = "a seguir, (fase)x-1"
@@ -188,8 +177,6 @@ $(document).ready(function () {
             $("#noob10").hide()
             $("#noob11").hide()
             $("#noob12").hide()
-            $("#noob13").hide()
-            $("#noob14").hide()
             $("#gabarito").hide()
         } if ($('#jsPassword').val() == "uma pena, o meu amor não mudou ainda") {
             $("#jsFase1").hide()
@@ -219,8 +206,6 @@ $(document).ready(function () {
             $("#noob10").hide()
             $("#noob11").hide()
             $("#noob12").hide()
-            $("#noob13").hide()
-            $("#noob14").hide()
             $("#gabarito").hide()
         } if ($('#jsPassword').val() == "sim, tudo isso é uma história de amor") {
             $("#jsFase1").hide()
@@ -250,8 +235,6 @@ $(document).ready(function () {
             $("#noob10").hide()
             $("#noob11").hide()
             $("#noob12").hide()
-            $("#noob13").hide()
-            $("#noob14").hide()
             $("#gabarito").hide()
 
             colocaEspera();
@@ -283,8 +266,6 @@ $(document).ready(function () {
             $("#noob10").hide()
             $("#noob11").hide()
             $("#noob12").hide()
-            $("#noob13").hide()
-            $("#noob14").hide()
             $("#gabarito").hide()
         } if ($('#jsPassword').val() == "em milhares de maneiras eu penso mas somente uma funciona") {
             document.title = "sim, é o mesmo de antes"
@@ -315,10 +296,8 @@ $(document).ready(function () {
             $("#noob10").hide()
             $("#noob11").hide()
             $("#noob12").hide()
-            $("#noob13").hide()
-            $("#noob14").hide()
             $("#gabarito").hide()
-        } if ($('#jsPassword').val() == "  e nada fara com que tudo volte ao normal") {
+        } if ($('#jsPassword').val() == "e nada fara com que tudo volte ao normal") {
             document.title = "o jogo"
             $("#jsFase1").hide()
             $("#jsFase2").hide()
@@ -347,8 +326,6 @@ $(document).ready(function () {
             $("#noob10").hide()
             $("#noob11").hide()
             $("#noob12").hide()
-            $("#noob13").hide()
-            $("#noob14").hide()
             $("#gabarito").hide()
         } if ($('#jsPassword').val() == "o inferno é aqui") {
             $("#jsFase1").hide()
@@ -378,8 +355,6 @@ $(document).ready(function () {
             $("#noob10").hide()
             $("#noob11").hide()
             $("#noob12").hide()
-            $("#noob13").hide()
-            $("#noob14").hide()
             $("#gabarito").hide()
         } if ($('#jsPassword').val() == "adeus amarga vida.") {
             $("#jsFase1").hide()
@@ -409,8 +384,6 @@ $(document).ready(function () {
             $("#noob10").hide()
             $("#noob11").hide()
             $("#noob12").hide()
-            $("#noob13").hide()
-            $("#noob14").hide()
             $("#gabarito").hide()
         }if(!localStorage.cheat){
                 $("#bonus").show()
@@ -444,7 +417,6 @@ $(document).ready(function () {
             $("#noob10").hide()
             $("#noob11").hide()
             $("#noob12").hide()
-            $("#noob13").hide()
             $("#gabarito").hide()
             cheat=1
             localStorage.cheat=cheat
@@ -475,7 +447,6 @@ $(document).ready(function () {
             $("#noob10").hide()
             $("#noob11").hide()
             $("#noob12").hide()
-            $("#noob13").hide()
             $("#gabarito").hide()
             cheat=1
             localStorage.cheat=cheat
@@ -506,7 +477,6 @@ $(document).ready(function () {
             $("#noob10").hide()
             $("#noob11").hide()
             $("#noob12").hide()
-            $("#noob13").hide()
             $("#gabarito").hide()
             cheat=1
             localStorage.cheat=cheat
@@ -537,7 +507,6 @@ $(document).ready(function () {
             $("#noob10").hide()
             $("#noob11").hide()
             $("#noob12").hide()
-            $("#noob13").hide()
             $("#gabarito").hide()
             cheat=1
             localStorage.cheat=cheat
@@ -568,7 +537,6 @@ $(document).ready(function () {
             $("#noob10").hide()
             $("#noob11").hide()
             $("#noob12").hide()
-            $("#noob13").hide()
             $("#gabarito").hide()
             cheat=1
             localStorage.cheat=cheat
@@ -599,7 +567,6 @@ $(document).ready(function () {
             $("#noob10").hide()
             $("#noob11").hide()
             $("#noob12").hide()
-            $("#noob13").hide()
             $("#gabarito").hide()
             cheat=1
             localStorage.cheat=cheat
@@ -630,7 +597,6 @@ $(document).ready(function () {
             $("#noob10").hide()
             $("#noob11").hide()
             $("#noob12").hide()
-            $("#noob13").hide()
             $("#gabarito").hide()
             cheat=1
             localStorage.cheat=cheat
@@ -661,7 +627,6 @@ $(document).ready(function () {
             $("#noob10").hide()
             $("#noob11").hide()
             $("#noob12").hide()
-            $("#noob13").hide()
             $("#gabarito").hide()
             cheat=1
             localStorage.cheat=cheat
@@ -692,7 +657,6 @@ $(document).ready(function () {
             $("#noob10").hide()
             $("#noob11").hide()
             $("#noob12").hide()
-            $("#noob13").hide()
             $("#gabarito").hide()
             cheat=1
             localStorage.cheat=cheat
@@ -723,7 +687,6 @@ $(document).ready(function () {
             $("#noob10").show()
             $("#noob11").hide()
             $("#noob12").hide()
-            $("#noob13").hide()
             $("#gabarito").hide()
             cheat=1
             localStorage.cheat=cheat
@@ -754,7 +717,6 @@ $(document).ready(function () {
             $("#noob10").hide()
             $("#noob11").show()
             $("#noob12").hide()
-            $("#noob13").hide()
             $("#gabarito").hide()
             cheat=1
             localStorage.cheat=cheat
@@ -785,7 +747,6 @@ $(document).ready(function () {
             $("#noob10").hide()
             $("#noob11").hide()
             $("#noob12").show()
-            $("#noob13").hide()
             $("#gabarito").hide()
             cheat=1
             localStorage.cheat=cheat
