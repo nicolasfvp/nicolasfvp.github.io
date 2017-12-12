@@ -1,5 +1,13 @@
 var cheat=0;
+var mostraSenha = function () {
+    $("#jsEspere").html("não quero passar meu sofrimento adiante, quero acabar com ele");
+    setTimeout(colocaEspera, 5000);
+};
 
+var colocaEspera = function () {
+    $("#jsEspere").html("espere");
+    setTimeout(mostraSenha, 900000);
+}
 $(document).ready(function () {
     $("#jsPassword").keypress(function (event) {
         if(event.which==13){
@@ -148,7 +156,7 @@ $(document).ready(function () {
             $("#noob11").hide()
             $("#noob12").hide()
             $("#gabarito").hide()
-        } if ($('#jsPassword').val() == "mas tudo mudou hoje em dia") {
+        } if ($('#jsPassword').val() == "mas as coisas mudaram hoje em dia") {
             document.title = "a seguir, (fase)x-1"
             $("#jsFase1").hide()
             $("#jsFase2").hide()
@@ -179,6 +187,7 @@ $(document).ready(function () {
             $("#noob12").hide()
             $("#gabarito").hide()
         } if ($('#jsPassword').val() == "uma pena, o meu amor não mudou ainda") {
+            document.title ="O jogo"
             $("#jsFase1").hide()
             $("#jsFase2").hide()
             $("#jsFase3").hide()
@@ -813,15 +822,6 @@ $(document).ready(function () {
     }
 }
 
-var mostraSenha = function () {
-    $("#jsEspere").html("não quero passar meu sofrimento adiante, quero acabar com ele");
-    setTimeout(colocaEspera, 5000);
-};
-
-var colocaEspera = function () {
-    $("#jsEspere").html("espere");
-    setTimeout(mostraSenha, 900000);
-}
 
 })
 })
